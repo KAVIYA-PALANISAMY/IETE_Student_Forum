@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IETE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTckd4NzaFn2oan7l0GX4bi0OjBWQyOOg6XTA&usqp=CAU");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .scroll-container {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 100%;
+        }
+
+        .box {
+            background-color: #fff;
+            width: calc(33.33% - 20px);
+            height: 40px;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        p,
+        li,
+        b,
+        i {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            color: black; /* Change text color to black */
+        }
+
+        .content {
+            background-color: #fff;
+            width: calc(100% - 20px);
+            border: 2px solid #007BFF;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>    </pre>
+    <div class="content">
+
+        <div class="content-box">
+            <div class="Box">
+                <h1>About Us</h1>
+            </div>
+            <pre>    </pre>
+            <p><em>Founded in 1953, the Institution of Electronics and Telecommunication Engineers (IETE) is a leading
+                    professional society. Its vision is to reach the unreached and empower the youth through Technical Education
+                    and Skill development with a Mission for Advancement of Electronics, Telecommunication, Information
+                    Technology & other related disciplines; to contribute in Nation's Human Resource & Infrastructure Development
+                    through our Engineers & Scientists. The Government of India, Ministry of Science and Technology, Department
+                    of Scientific & Industrial Research has recognized IETE as a Scientific and Industrial Research Organization
+                    (SIRO). The Institution has also been notified as an Educational Institution of National Eminence by the
+                    Government of India. IETE is governed by its elected Governing Council headed by an elected President. It has
+                    on its roll the Secretary General – the head of IETE Secretariat as Chief Executive. The Institution is
+                    managed through various Committees and Boards nominated by the Governing Council. The 63 Centers are spread
+                    all over India 02 abroad and are managed by respective Executive Committees. To keep pace with technological
+                    development and achieve the mission, it organizes conferences, conventions, symposia, seminars, workshops,
+                    publications and brain storming sessions for continued knowledge upgradation of its members.</em></p>
+
+            <h2>Chennai Center</h2>
+            <pre>    </pre>
+            <p><i>Chennai Centre of IETE is committed to attain commanding heights and achieve the status of “Centre of
+                    Excellence” in Technical, Engineering & Management education by harnessing the best practices in educational
+                    innovation and through its concerted endeavors like quality teaching, industrial consultancy and training to
+                    the aspirants including corporate training.</i></p>
+
+            <p><i>The Centre assigns top priority to the basic need for ‘education transformation’ in keeping pace with time,
+                    and aims at to develop the highest quality of manpower to cater to the needs & expectations of industry, R&D
+                    and educational institutions, with higher degree of employability for today and tomorrow.</i></p>
+
+            <h2>Vision:</h2>
+            <pre>    </pre>
+            <p>Reaching the un-reached and empowering the youth through Technical Education and Skill Development.</p>
+
+            <h2>Mission:</h2>
+            <p>Advancement of Electronics, Telecommunication, Information Technology & other related disciplines to contribute in
+                Nation’s Human Resource & Infrastructure Development through our Engineers.</p>
+
+            <h2>Motives:</h2>
+            <pre>    </pre>
+            <p>IETE is helping its students to learn and grow in the emerging field of Electronics and Telecommunication. One of
+                the missions of IETE is to provide the best mode of studying a Btech degree programme.</p>
+        </div>
+
+    </div>
+
+    <div class="scroll-container">
+        <div class="box" onclick="rotateBox(this)">
+            <p>Sri Venkateswara College of Engineering, Sriperambadur</p>
+        </div>
+        <div class="box">
+            <p>Panimalar Institute of Technology</p>
+        </div>
+        <div class="box">
+            <p>Easwari Engineering College</p>
+        </div>
+        <div class="box">
+            <p>Veltech Multi Engineering College</p>
+        </div>
+        <div class="box">
+            <p>SRM Institute of Science and Technology</p>
+        </div>
+        <div class="box">
+            <p>Jeppiar Institute of Technology</p>
+        </div>
+        <div class="box">
+            <p>KCG College of Technology</p>
+        </div>
+        <div class="box">
+            <p>Dr Rangarajan Dr Sakunthala Engg College</p>
+        </div>
+        <div class="box">
+            <p>Saveetha Engineering College</p>
+        </div>
+        <div class="box">
+            <p>Dr. M G R Educational & Research Institute</p>
+        </div>
+        <div class="box">
+            <p>DMI College of Engineering</p>
+        </div>
+        <div class="box">
+            <p>MISRIMAL NAVAJEE MUNOTH JAIN ENGINEERING COLLEGE</p>
+        </div>
+
+        <script>
+            function rotateBox(box) {
+                box.style.transform = 'rotate(360deg)';
+            }
+        </script>
+    </div>
+</body>
+
+</html>
